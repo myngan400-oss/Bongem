@@ -1,4 +1,4 @@
-# PAWO — Pet Happy Place 🐾
+# Bông Em Pet Shop 🐾
 
 Website MVP tiếng Việt cho dịch vụ spa/khách sạn thú cưng và cửa hàng phụ kiện, thời trang, thức ăn.
 
@@ -15,7 +15,7 @@ Website MVP tiếng Việt cho dịch vụ spa/khách sạn thú cưng và cửa
 ## Chạy trên máy tính
 Yêu cầu Node.js 20+ và PostgreSQL.
 
-1. Tạo database tên `pawo`.
+1. Tạo database tên `Bông Em Pet Shop`.
 2. Sao chép `.env.example` thành `.env`, sau đó điền chuỗi kết nối database.
 3. Chạy:
 
