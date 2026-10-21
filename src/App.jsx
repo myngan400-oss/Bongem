@@ -1,11 +1,13 @@
 import {useEffect,useMemo,useState} from 'react';
 const productPhotos={
-  'Lược chải lông mềm':'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=85',
-  'Vòng cổ pastel':'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=900&q=85',
-  'Bánh thưởng cá hồi':'https://images.unsplash.com/photo-1582798358481-d199fb7347bb?auto=format&fit=crop&w=900&q=85',
-  'Áo thun bé cưng':'https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=900&q=85',
-  'Bát ăn chống trượt':'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85',
-  'Hạt dinh dưỡng daily':'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85'
+  'Thức ăn hạt cho chó':'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85',
+  'Pate thơm ngon cho mèo':'https://images.unsplash.com/photo-1582798358481-d199fb7347bb?auto=format&fit=crop&w=900&q=85',
+  'Sữa tắm dịu nhẹ':'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=85',
+  'Vòng cổ & dây dắt':'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=900&q=85',
+  'Ổ nằm êm ái':'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=85',
+  'Đồ chơi thú cưng':'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=85',
+  'Cát vệ sinh cho mèo':'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85',
+  'Áo thời trang cho bé':'https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=900&q=85'
 };
 const servicePhotos=[
   'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=85',
