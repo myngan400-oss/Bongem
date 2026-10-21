@@ -21,3 +21,27 @@
 .search:focus,.booking-form input:focus,.booking-form select:focus,.booking-form textarea:focus{border-color:var(--coral);box-shadow:0 0 0 3px #ef806f20;outline:none}
 button:disabled{opacity:.55;cursor:not-allowed}
 @media(max-width:600px){.pet-photo-wrap{height:185px}.product-art{height:145px}.service-art{height:155px}}
+
+/* Checklist refresh — cozy, cute and photo-forward */
+.list-panel{background:linear-gradient(155deg,#fffdf9 0%,#fff 58%,#fff7f2 100%);border:1px solid #f0dfd5;border-radius:22px;padding:clamp(18px,3vw,28px);box-shadow:0 18px 45px #9d6e5012}
+.list-head{border-bottom:1px dashed #ead9ce;padding-bottom:17px}
+.list-head h3{font-family:'Playfair Display',serif;color:#49312d}
+.empty{padding:22px 12px 26px;gap:12px}
+.empty-illustration{width: min(240px,100%);height:148px;position:relative;border-radius:20px;overflow:hidden;background:#f9e9df;box-shadow:inset 0 0 0 8px #fff7ef}
+.empty-illustration img{width:100%;height:100%;object-fit:cover;display:block}
+.empty-illustration span{position:absolute;right:12px;top:10px;width:32px;height:32px;display:grid;place-items:center;background:#fff9f2;color:#dc8478;border-radius:50%;font-size:20px;box-shadow:0 4px 12px #59342a20}
+.empty>b{font-family:'Playfair Display',serif;font-size:18px;color:#49312d}
+.empty small{max-width:270px;font-size:11px;line-height:1.8;color:#958078}
+.empty a{display:inline-flex;margin-top:3px;background:#f8e5dc;border-radius:24px;padding:10px 16px;color:#a85e51;font-weight:600}
+.item{gap:12px;padding:13px 0;border-bottom:1px solid #f2e8e0}
+.item-thumb{width:62px;height:62px;flex:0 0 62px;position:relative;border-radius:15px;overflow:hidden;background:#f7e9df}
+.item-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.item-thumb span{position:absolute;right:4px;bottom:4px;width:20px;height:20px;display:grid;place-items:center;border-radius:50%;background:#fff9f2;color:#d77f70;font-size:12px}
+.item-name{gap:5px;min-width:0}
+.item-name b{font-size:12px;line-height:1.5;color:#45302c}
+.item-name small{font-size:10px;color:#a28c81}
+.item-price{white-space:nowrap;font-size:11px;color:#49312d}
+.remove-item{width:27px;height:27px;flex:0 0 27px;border-radius:50%;background:#fff1ec!important;color:#b96f62;font-size:18px!important;line-height:1}
+.summary{border-top:1px solid #f0e5dc;margin-top:2px;color:#806c63}
+.save{border-radius:28px;box-shadow:0 7px 16px #d9817026}
+@media(max-width:600px){.item-thumb{width:54px;height:54px;flex-basis:54px}.item{gap:9px}.item-price{font-size:10px}.empty-illustration{height:135px}}
